@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    height: 100%;
+}
+
+.profile_page {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    width: 15vw;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+.sidebar a {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar a:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.189);
+    transition: all 0.5s ease-in-out;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+    height: 100vh;
+    width: 15vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 50%);
+}
+
+.main_links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.main {
+    margin-top: 5vh;
+    margin-right: 110px;
+    padding-right: 30px;
+    padding-left: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_details {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 50px;
+}
+
+.name_info {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.name_info h1 {
+    font-size: 40px;
+}
+
+.name_info p {
+    font-size: 20px;
+}
+
+.comp_profile {
+    margin-left: 35vw;
+    margin-top: 40px;
+    width: 8vw;
+    height: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 25%);
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.profile_img {
+    position: relative;
+    left: 40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.main_box {
+    width: 70vw;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 50%);
+    border-radius: 20px;
+    z-index: -1;
+    padding-top: 100px;
+}
+
+.main_box_child {
+    font-size: 25px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
